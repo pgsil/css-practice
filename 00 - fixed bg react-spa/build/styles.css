@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: gray;
+	font-family: 'Open Sans', sans-serif
+}
+.header-main {
+    z-index: 10;
+    width: 100%;
+}
+#header{
+	height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#header a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+.header-links{
+
+}
+.header-link{
+}
+.brand{
+	font-family: "Pacifico", sans-serif;
+	color: white;
+	font-size: 2em;
+}
+.contentdiv{
+    width: 100%;
+}
+#Comp1 {
+    height: 600px;
+    background: url(http://i.imgur.com/CQStJUJ.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%!important;
+    margin-top: -60px;
+}
+#Comp2 {
+    height: 600px;
+    background: white;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%!important;
+    margin-top: -60px;
+}
+.comp1-inner {
+    padding-top: 70px!important;
+    text-align: center;
+    color: white
+}
+.comp2-inner {
+    padding-top: 10px!important;
+    text-align: center;
+    color: black;
+}
+.front-page-catch {
+    font-family: "Passion One";
+    font-size: 6vw;
+    margin-top: 1em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+.front-page-subtitle {
+    font-family: "News Cycle";
+    font-size: 1.8em;
+    margin-top: -20px;
+}
+.buttons-margin{
+	margin: 2px;
+	margin-top: 30px;
+}
+.button-yellow{
+	color: #FFF;
+	background-color: #ecb945;
+	border-color: #ffc643;
+	margin: 5px;
+}
+.button-white {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #000000;
+    margin: 5px;
+}
+.button-black {
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    margin: 5px;
+}
+.button-blue{
+	border-color: #4cd4ff!important;
+    background-color: #3bbae2!important;
+}
+.front-page-header2{
+	font-family: "Passion One";
+	font-size: 5em;
+	margin-top: 0.4em;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
+#Comp3{
+	color: white;
+	background-color: black;
+	height: 950px;
+}
+.comp3-inner{
+	height: 100%;
+}
+.comp3-inner-backdrop {
+    background: url('https://vgy.me/qU5twv.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.comp-3-detailbox{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 1.5vw;
+}
+.full-height{
+	height: 100%;
+}
+#Comp4{
+	color: black;
+	background-color: white;
+	height: 950px;
+}
+.comp4-inner{
+	height: 100%;
+}
+.comp4-inner-backdrop {
+    background: url('https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/8976/assets/pages/home/features/all-in-one-desk-2500w.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.comp-4-detailbox{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 1.5vw;
+}
+.a1vw{
+	font-size: 1vw;
+}
+.a2vw{
+	font-size: 2vw;
+}
+.a3vw{
+	font-size: 3vw;
+}
+.text-backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 132px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.wide-hide{
+	display: none;
+}
+//small screen sizes
+@media (min-width: 991px) {
+    .wide-hide {
+    	display:block!important;
+    }
+}
